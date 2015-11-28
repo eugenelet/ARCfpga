@@ -1,0 +1,11 @@
+NET "clk" TNM_NET = TNM_clk;
+TIMESPEC "TS_clk" = PERIOD "TNM_clk" 25 ns;
+
+NET "clk"           LOC = "AA12"   | IOSTANDARD = LVCMOS33;
+
+
+
+
+NET "btn"        LOC = "H8"   | IOSTANDARD = SSTL15_II;
+NET "led"        LOC = "K18"   | IOSTANDARD = SSTL15_II;
+
